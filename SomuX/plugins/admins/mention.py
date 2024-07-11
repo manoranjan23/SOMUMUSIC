@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
 from SomuX import app
-from SomuX.utils.somu_ban import admin_filter
+from SomuX.utils.Somu_ban import admin_filter
 
 
 
