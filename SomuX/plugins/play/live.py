@@ -4,7 +4,7 @@ from SomuX import YouTube, app
 from SomuX.utils.channelplay import get_channeplayCB
 from SomuX.utils.decorators.language import languageCB
 from SomuX.utils.stream.stream import stream
-from config import BANNED_USERS
+from config import BANNED_USERS, SOM
 
 
 @app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)
