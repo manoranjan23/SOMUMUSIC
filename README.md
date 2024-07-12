@@ -3,8 +3,8 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <h2 align="center">
     「 𝐒𝐨𝐦𝐮 ꭙ 𝐌𝐮𝐬𝐢𝐜. 」──
-</h2>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</h2>
 
 <p align="center">
   <img src="https://telegra.ph/file/aa79061512c27fa7b44ac.jpg">
