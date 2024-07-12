@@ -66,7 +66,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
-# Get your pyrogram v2 session from @Venom_string_robot on Telegram
+# Get your pyrogram v2 session from
+
 STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
@@ -90,21 +91,21 @@ clean = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/d393b590ec2971f1628a2.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/ba50dffd30e2629b65c71.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/04459ae9976672e7edae3.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/6eeadeaa8e8c075fd7aa4.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/e5c3db44fb5014a4c2177.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/074be7d47c899a39b0cb4.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/1b50a4963c0a837dfbf20.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/9a6a8211c09554913e50d.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/9abcac791ce47c045a18e.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/9a9f95203f8b56940c3b2.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/e7d3265f89e8da6e4b889.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/2d932a31079572b8d5ece.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/fed5ac53883b648026184.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/ab3c15c6800e88f3d930b.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/4dfd906e8406443b5bfde.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/6eb615c167fc8218f2247.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/b2f85290f664661e1ba4a.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/fcb8d9e2df742aea6a51f.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/a23eb1ecae45b2d9098af.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/b921f8fc21b9d57eb473e.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/33eac2fd4f37dc054f399.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/a5ef6f7d45dc7b80e2b76.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/959e57d56c5259ad75d10.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/a34f1e0b17a398f68ecd2.jpg"
 
 
 def time_to_seconds(time):
