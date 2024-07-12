@@ -22,7 +22,7 @@ from SomuX.utils.inline import (
 )
 from SomuX.utils.logger import play_logs
 from SomuX.utils.stream.stream import stream
-from config import BANNED_USERS, lyrical, SOM
+from config import BANNED_USERS, lyrical
 
 
 @app.on_message(
@@ -54,7 +54,7 @@ async def play_commnd(
     fplay,
 ):
     mystic = await message.reply_text(
-        _["play_2"].format(channel) if channel else random.choice(SOM)
+        _["play_2"].format(channel) if channel else _["play_1"]
     )
     plist_id = None
     slider = None
@@ -454,7 +454,7 @@ async def play_music(client, CallbackQuery, _):
     except:
         pass
     mystic = await CallbackQuery.message.reply_text(
-        _["play_2"].format(channel) if channel else random.choice(SOM)
+        _["play_2"].format(channel) if channel else _["play_1"]
     )
     try:
         details, track_id = await YouTube.track(vidid, True)
