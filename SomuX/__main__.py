@@ -49,7 +49,7 @@ async def init():
     except:
         pass
     await Somu.decorators()
-    LOGGER("SomuX").info("ᴠᴇɴᴏᴍxᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴏᴡ ᴇɴᴊᴏʏ")
+    LOGGER("SomuX").info("sᴏᴍᴜxᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴏᴡ ᴇɴᴊᴏʏ")
 
     await idle()
     await app.stop()
