@@ -22,7 +22,7 @@ from SomuX.utils.inline import (
 )
 from SomuX.utils.logger import play_logs
 from SomuX.utils.stream.stream import stream
-from config import BANNED_USERS, lyrical
+from config import BANNED_USERS, lyrical, SOM
 
 
 @app.on_message(
